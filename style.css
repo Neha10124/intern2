@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #0a0a0a;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .play-button {
+    font-size: 2em;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .quote {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .quote-text {
+    flex: 1;
+    font-size: 1.5em;
+    padding: 10px;
+  }
+  
+  .quote-image img {
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .biography {
+    padding: 30px 10px;
+  }
+  
+  .biography h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .biography p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    font-size: 0.9em;
+    color: #aaa;
+  }
+  
+  footer a {
+    color: #66b3ff;
+    text-decoration: none;
+  }
+  
